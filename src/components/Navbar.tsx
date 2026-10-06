@@ -49,6 +49,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenNotes, savedNotesCount }) 
           <a href="#imu-and-nika" className="hover:text-amber-300 transition-colors">負の機関</a>
           <a href="#fire-and-crimson" className="hover:text-amber-300 transition-colors text-rose-400 font-semibold">完全解体録</a>
           <a href="#theory-comparison" className="hover:text-amber-300 transition-colors text-cyan-400">主流比較</a>
+          <a href="#master-synthesis" className="hover:text-amber-300 transition-colors text-emerald-400 font-semibold">統合マップ</a>
           <a href="#dual-liberation" className="hover:text-amber-300 transition-colors text-amber-300 font-semibold">縦横の解放</a>
           <a href="#grand-banquet" className="hover:text-amber-300 transition-colors text-amber-400">大宴</a>
         </nav>

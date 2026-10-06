@@ -7,18 +7,18 @@ export const PangeaCastleAndHigumaTheory: React.FC = () => {
   const activationSteps = [
     {
       step: 1,
-      title: 'ラフテルで「世界の栓」の遠隔キーを起動',
+      title: 'ラフテルで「超巨大コルク栓」をコミカルに引っこ抜く',
       location: 'Laugh Tale（最後の島）',
-      detail: 'ルフィがラフテルに眠るコントローラー（真のワンピース）を作動。海水をせき止めていたパンゲア城地下の巨大メインバルブのロックが解除され、歴史上最大の排水が開始される。',
-      icon: Key,
+      detail: 'ニカ（ルフィ）がギガント化し、ラフテルに眠るバカバカしい「超巨大な風呂のコルク栓」を両手で掴んで「キュッポーン！」と引き抜く。歴史上最大の海水排水が開始される。',
+      icon: Sparkles,
       color: 'text-amber-400',
       border: 'border-amber-500/50'
     },
     {
       step: 2,
-      title: '水没維持装置「レッドライン」の物理的崩壊',
+      title: 'ゾロの横の解放による「レッドライン切断」とパンゲア城の崩壊',
       location: '聖地マリージョア・パンゲア城',
-      detail: '水位の劇的変動と古代兵器の連動により、世界を分断し海水を堰き止めていた「赤い土の赤い壁（レッドライン）」とイム様の座すパンゲア城が物理的に大崩壊を起こす。',
+      detail: '万物の呼吸を極めたゾロが世界を分断していた不条理の壁「レッドライン」を一刀両断。イム様の座すパンゲア城の支配機構が物理的に大崩壊を起こす。',
       icon: Castle,
       color: 'text-rose-400',
       border: 'border-rose-500/50'
@@ -48,28 +48,28 @@ export const PangeaCastleAndHigumaTheory: React.FC = () => {
       {/* Chapter Lead Header */}
       <div className="max-w-3xl mb-12">
         <div className="flex items-center gap-2 text-xs uppercase tracking-widest text-amber-400 font-semibold mb-2">
-          <span>THE CENTRAL VALVE & MOUNTAIN OLIGARCHY · 中枢バルブと地上利権</span>
+          <span>THE CENTRAL SYSTEM & MOUNTAIN OLIGARCHY · 中枢支配と地上利権</span>
         </div>
         <h2 className="text-2xl sm:text-4xl font-serif-jp font-bold text-stone-100 tracking-tight mb-4">
-          パンゲア城地下の「メインバルブ」とラフテルの「鍵」：<br className="hidden sm:inline" />
+          パンゲア城の「偽りの王座」とラフテルの「超巨大コルク栓」：<br className="hidden sm:inline" />
           山賊ヒグマの裏利権と、ワンピース発動の物理連動
         </h2>
         <p className="text-stone-300 text-sm sm:text-base leading-relaxed">
-          世界政府の中枢「パンゲア城」の地下には、かつての大陸を沈めた<span className="text-amber-300 font-semibold">巨大メインバルブ（世界の栓）</span>が眠り、
-          終着点ラフテルにはそれを遠隔起動する<span className="text-cyan-300 font-semibold">「鍵（コントローラー）」</span>が隠されています。
+          世界政府の中枢「パンゲア城」は、かつての大陸を沈めた壁（レッドライン）の上に築かれた簒奪の象徴であり、
+          終着点ラフテルには海水を一気に抜く<span className="text-amber-300 font-semibold">「超巨大な風呂のコルク栓（ONE PIECE）」</span>が眠っています。
           さらに、海没後の超希少資源「山林」を巡る政府と山賊ヒグマの裏協定から、ワンピース発動後の世界新秩序までを紐解きます。
         </p>
       </div>
 
       {/* Part 1: The Dual Architecture: Pangea Castle vs Laugh Tale */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-14">
-        {/* Pangea Castle: Central Valve */}
+        {/* Pangea Castle: Stolen Continent Name & Red Line */}
         <div className="p-6 sm:p-8 rounded-2xl bg-stone-900/90 border border-stone-800 flex flex-col justify-between shadow-xl">
           <div>
             <div className="flex items-center justify-between pb-4 border-b border-stone-800 mb-6">
               <div className="flex items-center gap-2">
-                <Castle className="w-5 h-5 text-amber-400" />
-                <span className="text-xs uppercase font-mono text-amber-400 font-semibold">PHYSICAL LOCK · 物理中枢</span>
+                <Castle className="w-5 h-5 text-rose-400" />
+                <span className="text-xs uppercase font-mono text-rose-400 font-semibold">STOLEN CONTINENT · 簒奪の象徴</span>
               </div>
               <span className="text-xs px-2.5 py-0.5 rounded bg-stone-950 text-stone-300 border border-stone-800 font-mono">
                 聖地マリージョア
@@ -77,32 +77,32 @@ export const PangeaCastleAndHigumaTheory: React.FC = () => {
             </div>
 
             <h3 className="text-xl sm:text-2xl font-serif-jp font-bold text-stone-100 mb-3">
-              パンゲア城地下深域の「巨大メインバルブ」
+              パンゲア城とレッドラインの「分断の壁」
             </h3>
 
             <p className="text-xs sm:text-sm text-stone-300 leading-relaxed font-sans-jp mb-6">
-              世界政府は、かつて存在した一つ繋ぎの大陸（パンゲア）を海に沈めた場所に、あえてその名を冠した「パンゲア城」を建て権力を誇示しています。
-              虚の玉座や巨大な麦わら帽子が眠る地下深域には、海水注入・排水を司る物理的な「巨大メインバルブ（世界の巨大な栓）」が封印されています。
+              世界政府は、かつて存在した一つ繋ぎの大陸（パンゲア）を海に沈めた場所の上に、あえてその名を冠した「パンゲア城」を建て権力を誇示しています。
+              虚の玉座や巨大な麦わら帽子が眠るこの地は、レッドラインという人工の赤い壁によって世界を東西南北に分断し、海水の循環を歪めて人々を孤立させる統治の本丸です。
             </p>
 
             <div className="p-3.5 bg-stone-950/80 rounded-xl border border-stone-850 text-xs text-stone-300">
-              <span className="text-amber-400 font-bold block mb-1">【バルブの役割】</span>
-              世界中の海水を高位で維持し、大地を海底に閉じ込め続けるための物理的水門。
+              <span className="text-rose-400 font-bold block mb-1">【支配のカラクリ】</span>
+              世界中の海水を高位で維持し、本来の大地を海底に閉じ込め続けるための分断機構。
             </div>
           </div>
 
           <div className="mt-6 pt-3 border-t border-stone-800 text-[11px] text-stone-400 font-mono">
-            ※城の真下＝世界の排水口の中央制御室
+            ※ゾロによる「レッドライン切断」で物理的に完全崩壊する対象
           </div>
         </div>
 
-        {/* Laugh Tale: Remote Key */}
+        {/* Laugh Tale: Ridiculous Bath Cork Plug */}
         <div className="p-6 sm:p-8 rounded-2xl bg-stone-900/90 border border-amber-500/40 flex flex-col justify-between shadow-xl">
           <div>
             <div className="flex items-center justify-between pb-4 border-b border-stone-800 mb-6">
               <div className="flex items-center gap-2">
-                <Key className="w-5 h-5 text-cyan-400" />
-                <span className="text-xs uppercase font-mono text-cyan-400 font-semibold">REMOTE CONTROLLER · 遠隔解除鍵</span>
+                <Sparkles className="w-5 h-5 text-amber-300" />
+                <span className="text-xs uppercase font-mono text-amber-300 font-semibold">PHYSICAL CORK PLUG · お風呂の栓</span>
               </div>
               <span className="text-xs px-2.5 py-0.5 rounded bg-amber-950 text-amber-300 border border-amber-800/50 font-mono">
                 最後の島・ラフテル
@@ -110,12 +110,12 @@ export const PangeaCastleAndHigumaTheory: React.FC = () => {
             </div>
 
             <h3 className="text-xl sm:text-2xl font-serif-jp font-bold text-stone-100 mb-3">
-              ラフテルに眠る「起動コントローラー」
+              ラフテルに眠る「超巨大な風呂のコルク栓」
             </h3>
 
             <p className="text-xs sm:text-sm text-stone-300 leading-relaxed font-sans-jp mb-6">
-              パンゲア城のバルブを開くための解除キー（プログラム）が隠された場所、それが「ラフテル（Laugh Tale）」です。
-              4つのロードポーネグリフの交点にしか現れないラフテルに到達し、「ひとつなぎの大秘宝（ワンピース）」を手に入れなければ、世界を陸に戻すことは物理的に不可能です。
+              世界の最深部に眠るのは、難解な電脳装置や軍事兵器ではなく、最高にコミカルな「超巨大な風呂のコルク栓」です。
+              800年のシリアスな歴史の最深部にあったのが「ただの風呂の栓」だったからこそ、ロジャーたちは腹を抱えて大爆笑（Laugh Tale）し、「お前と同じ時代に生まれたかった」と泣き笑いしたのです。
             </p>
 
             <div className="p-3.5 bg-stone-950/80 rounded-xl border border-stone-850 text-xs text-stone-300">

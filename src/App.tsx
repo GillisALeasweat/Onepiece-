@@ -28,6 +28,7 @@ import { GigantIronyAndSeraphimForensics } from './components/GigantIronyAndSera
 import { FireAndCrimsonMasterPlot } from './components/FireAndCrimsonMasterPlot';
 import { TheoryComparisonMatrix } from './components/TheoryComparisonMatrix';
 import { DualLiberationAndStrawHatDreams } from './components/DualLiberationAndStrawHatDreams';
+import { UnifiedMasterSynthesis } from './components/UnifiedMasterSynthesis';
 import { GrandBanquetFinale } from './components/GrandBanquetFinale';
 import { ChapterReader } from './components/ChapterReader';
 import { Footer } from './components/Footer';
@@ -48,7 +49,7 @@ export default function App() {
       const stage1Hashes = ['drain-simulation', 'miniature-world', 'ancient-weapons', 'bath-plug-forensics'];
       const stage2Hashes = ['bloodline-loki', 'figarland-hierarchy', 'pangea-and-higuma', 'ch1-cold-war', 'gigant-irony', 'devil-fruit-system'];
       const stage3Hashes = ['four-gods', 'two-d-truths', 'pirate-king-truth', 'road-poneglyph', 'imu-and-nika', 'gear-evolution'];
-      const stage4Hashes = ['fire-and-crimson', 'theory-comparison', 'grand-banquet', 'chapter-reader'];
+      const stage4Hashes = ['fire-and-crimson', 'theory-comparison', 'dual-liberation', 'master-synthesis', 'grand-banquet', 'chapter-reader'];
 
       if (stage1Hashes.includes(hash)) setCurrentStage(1);
       else if (stage2Hashes.includes(hash)) setCurrentStage(2);
@@ -175,6 +176,7 @@ export default function App() {
                 <FireAndCrimsonMasterPlot />
                 <TheoryComparisonMatrix />
                 <DualLiberationAndStrawHatDreams />
+                <UnifiedMasterSynthesis />
                 <GrandBanquetFinale />
                 <ChapterReader
                   bookmarkedIds={bookmarkedIds}
@@ -261,6 +263,7 @@ export default function App() {
             <FireAndCrimsonMasterPlot />
             <TheoryComparisonMatrix />
             <DualLiberationAndStrawHatDreams />
+            <UnifiedMasterSynthesis />
             <GrandBanquetFinale />
             <ChapterReader
               bookmarkedIds={bookmarkedIds}
