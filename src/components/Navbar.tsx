@@ -43,11 +43,11 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenNotes, savedNotesCount }) 
         {/* Zone 2: 4-6 clean text navigation links */}
         <nav className="hidden lg:flex items-center gap-3.5 text-xs sm:text-sm font-medium text-stone-300">
           <a href="#drain-simulation" className="hover:text-amber-300 transition-colors">世界の排水</a>
-          <a href="#miniature-world" className="hover:text-amber-300 transition-colors">各島の縮図</a>
           <a href="#two-d-truths" className="hover:text-amber-300 transition-colors">二つのD</a>
           <a href="#four-gods" className="hover:text-amber-300 transition-colors">陸の4神</a>
           <a href="#imu-and-nika" className="hover:text-amber-300 transition-colors">負の機関</a>
-          <a href="#gear-evolution" className="hover:text-amber-300 transition-colors">変身と昇華</a>
+          <a href="#fire-and-crimson" className="hover:text-amber-300 transition-colors text-rose-400 font-semibold">完全解体録</a>
+          <a href="#theory-comparison" className="hover:text-amber-300 transition-colors text-cyan-400">主流比較</a>
           <a href="#grand-banquet" className="hover:text-amber-300 transition-colors text-amber-400">大宴</a>
         </nav>
 
