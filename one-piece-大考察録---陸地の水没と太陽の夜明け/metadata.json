@@ -1,0 +1,6 @@
+{
+  "name": "ONE PIECE 大考察録 - 陸地の水没と太陽の夜明け",
+  "description": "『ONE PIECE』の根幹を解き明かす総合考察アーカイブ。800年前の「陸地（Daichi）」水没、巨大な排水栓としてのひとつなぎの大秘宝、古代兵器の生死、フィガーランド家と傀儡構造、二つのD、イム様の負の永久機関とニカの笑いによる絶対カウンターまでを体系的に可視化。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
