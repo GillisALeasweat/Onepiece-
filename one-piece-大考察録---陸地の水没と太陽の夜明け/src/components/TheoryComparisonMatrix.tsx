@@ -330,6 +330,89 @@ export const TheoryComparisonMatrix: React.FC = () => {
         whyItFitsFlawlessly: 'イム様の行動原理、世界政府の科学実験の歴史、そして最終決戦の構図まで、心理・科学・神話が完璧に一致。',
         overallRating: '◎ 完全整合：悪魔の心理的弱点と、ニカによる救済の必然性を完全解明'
       }
+    },
+    {
+      id: 'road-poneglyph',
+      topicNumber: '08',
+      topicTitle: 'ロードポーネグリフの「赤色」と座標の正体',
+      coreDivergence: '「重要度の色分け（警告色）」なのか、それとも「水没後の緊急ナビ＆リリィの暗号」なのか？',
+      mainstream: {
+        archetypeTitle: '【主流説】重要度区分説（特別カラー） / ウラヌス連動石説',
+        subTheories: [
+          '説A：約30個ある石の中で、ラフテルへの手がかりとなる最重要の4つを視覚的に区別するため赤く着色した。',
+          '説B：鉱物として希少な「ブラッドストーン（赤い鉱石）」を光月一族が削り出して作った。',
+          '説C：古代兵器ウラヌスを起動するための座標キーであり、危険度を示す赤色。'
+        ],
+        coreArguments: [
+          '赤い石という視覚的インパクトが作劇上極めて強く、読者にも特別感が伝わる。',
+          '4つの石の交点に最後の島があるという設定と整合する。'
+        ],
+        unsolvedContradictions: [
+          '矛盾①【なぜ他の26個は文章なのに4個だけ座標なのか？】：ポーネグリフは「歴史の記録媒体」であるはずなのに、なぜロードポーネグリフだけが物語や思想ではなく無機質な「4地点の空間座標」なのか？',
+          '矛盾②【なぜ水没前の世界で海の交点が必要なのか？】：太古の世界がパンゲア（1つの大陸）だったなら、なぜ陸路ではなく海の孤島を指す4点交点システムが存在するのか？'
+        ],
+        overallRating: '色の区別という記号論に留まり、なぜ「座標」という異質な情報が必要になったのかという歴史的必然性が説明できていない。'
+      },
+      ourTheory: {
+        archetypeTitle: '【本考察】水没後の海の世界で生き残るための「緊急ナビシステム」 ＆ リリィの二重セキュリティ',
+        unifyingConcepts: [
+          '真紅の理由：世界が海に沈められた絶望の直後、未来の解放者（ニカ）に最後の場所（ラフテル）へ辿り着かせるために灯された「非常時・緊急用ビーコン（赤い警告石）」。',
+          '座標情報の正体：大陸が海に沈んで地名や山川の目印がすべて消失したため、「緯度経度の交点」でしか場所を示せなくなった物理的必然性の結果。'
+        ],
+        detailedResolution: [
+          'リリィ女王と光月一族の二重セキュリティ：1個だけでは何もわからない（単体ではイム様に奪われても無意味）。4つ集めて初めて中心点が導き出される「分散型暗号」。',
+          'なぜ青い石と赤い石を分けたのか？：青石は「水没前の真の歴史（思想・神話）」の記録。赤石は「水没後の海の世界を航海するための緊急復旧キー（物理ナビ）」。役割が完全に異なるため、石の性質も色も別格に作られた。',
+          'ゾウのロードポーネグリフの必然：ズニーシャ（大地の生き残り）の背中に石を乗せたのは、水没後も海面上に留まり続けられる唯一の安全地帯だったから。'
+        ],
+        decisiveEvidences: [
+          'ベガパンクが明かした「世界は海に沈んだ」という物理的事実。',
+          'ネフェルタリ・リリィが犯した「大失態（ポーネグリフを世界中に散らばらせた事件）」とイム様の激怒。'
+        ],
+        whyItFitsFlawlessly: 'なぜ赤なのか、なぜ文字ではなく座標なのか、なぜ4点なのかが、世界水没という地殻変動から逆算されて100%合理化。',
+        overallRating: '◎ 完全整合：石の色・情報形式・配置場所の全要素が水没史観と美しく合致'
+      }
+    },
+    {
+      id: 'pangea-castle-valve',
+      topicNumber: '09',
+      topicTitle: 'パンゲア城地下の真実とラフテルの関係',
+      coreDivergence: '「単なる天竜人の居住宮殿」なのか、それとも「水没のメインバルブ（錠前）と解除キー（鍵）」なのか？',
+      mainstream: {
+        archetypeTitle: '【主流説】天竜人の神殿宮殿 / 古代兵器保管庫 / 国宝冷凍室説',
+        subTheories: [
+          '説A：レッドラインの最高峰に位置する、20人の王の末裔のための贅沢な宮殿。',
+          '説B：虚の玉座の真下に古代兵器（ウラヌス）の本体または動力源が格納されている。',
+          '説C：巨大な麦わら帽子が凍結保存されている保管庫があり、マリージョアの「国宝」と連動している。'
+        ],
+        coreArguments: [
+          'マリージョア編で描写された壮大で威圧的な城のビジュアル。',
+          'ドフラミンゴの「マリージョアの国宝」発言と虚の玉座の神秘性。'
+        ],
+        unsolvedContradictions: [
+          '矛盾①【なぜ沈めた大陸の名「パンゲア」を城に付けたのか？】：天竜人が大地の民を根絶やしにしたなら、なぜ彼らはその忌まわしい超大陸の名を最高権力の城に刻んでいるのか？',
+          '矛盾②【ラフテルとマリージョアの対極性】：なぜグランドラインの最終地点であるラフテルに行かなければ世界をひっくり返せないのか？ 本拠地マリージョアを直接叩くだけでは不十分な理由は何か？'
+        ],
+        overallRating: '城の権威付けや宝物庫としての機能は説明できても、名前の由来やラフテルとの物理的連動性が不明。'
+      },
+      ourTheory: {
+        archetypeTitle: '【本考察】世界を沈めた「メインバルブ（錠前）」 vs ラフテルの「遠隔解除キー（鍵）」の対構造',
+        unifyingConcepts: [
+          'パンゲア城の正体：かつて一つなぎだった超大陸「パンゲア」を水没させた、海水の注入・排水を司る世界最大の「メインバルブ（錠前）」。沈めた大陸の真上に建てて物理的に蓋をした。',
+          'ラフテルの正体：パンゲア城のメインバルブを遠隔で緊急開放し、海水を一気に抜いて大地を浮上させるための「遠隔操作装置（鍵）」が隠された場所。'
+        ],
+        detailedResolution: [
+          'なぜマリージョア直撃ではダメなのか？：パンゲア城のバルブにはイム様の強力な暗号ロックがかけられており、ラフテルにある「古代の解除キー（鍵）」を持ってこなければ開かない安全設計（デュアルキー・システム）になっているから。',
+          'ラフテル（Laugh Tale）の鍵の形状：その解除キーの形が、まさに誰が見ても吹き出してしまう「お風呂の栓のハンドル」。ジョイボーイの残した最高のおふざけ。',
+          '解除後のドミノ倒し：ラフテルで鍵を回す → パンゲア城地下のバルブが全開 → 世界中の海水がエニエス・ロビーなどの大穴へ急速排水 → レッドライン崩壊とともに真の超大陸「ONE PIECE」が姿を現す。'
+        ],
+        decisiveEvidences: [
+          'パンゲア城（Pangea＝太古の単一超大陸）という明確すぎるネーミング。',
+          'エニエス・ロビーの底なし大穴とルルシア跡地の大穴という「地球規模の配管システム」。',
+          'ロジャーの「お前（ジョイボーイ）と同じ時代に生まれたかった」という言葉（鍵の構造への共感）。'
+        ],
+        whyItFitsFlawlessly: '城の命名理由、ラフテルへの到達必然性、そして物語のクライマックスにおける世界の物理的解放が完璧に1本化。',
+        overallRating: '◎ 完全整合：マリージョアとラフテルの二大巨頭が「錠前と鍵」として完全に機能'
+      }
     }
   ];
 
@@ -346,12 +429,12 @@ export const TheoryComparisonMatrix: React.FC = () => {
         <h2 className="text-3xl sm:text-5xl font-serif-jp font-bold text-stone-100 tracking-tight leading-tight mb-4">
           ネット上の有力説 vs 本考察：<br />
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-amber-300 to-rose-400">
-            7大論点で浮き彫りになる「未解決の矛盾」と「完全整合」
+            9大論点で浮き彫りになる「未解決の矛盾」と「完全整合」
           </span>
         </h2>
         <p className="text-stone-300 text-sm sm:text-base leading-relaxed">
           現在ネット上で広く支持されている代表的な有力説（レッドライン破壊説・Dawn説・担当編集者の演出説など）が、なぜ一部の描写と致命的に食い違ってしまうのか？
-          7つの核心的論点において、主流説の抱える矛盾と、本考察（火と緋の神話）による完全解明を詳細に対比検証します。
+          9つの核心的論点において、主流説の抱える矛盾と、本考察（火と緋の神話）による完全解明を詳細に対比検証します。
         </p>
       </div>
 
@@ -375,7 +458,7 @@ export const TheoryComparisonMatrix: React.FC = () => {
               : 'bg-stone-900/60 border border-stone-800 text-stone-400 hover:text-stone-200'
           }`}
         >
-          【一目瞭然】7大論点比較サマリー表
+          【一目瞭然】9大論点比較サマリー表
         </button>
       </div>
 
@@ -383,21 +466,21 @@ export const TheoryComparisonMatrix: React.FC = () => {
       {activeTab === 'side_by_side' && (
         <div>
           {/* Topic Selector Tabs */}
-          <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-7 gap-2 mb-8">
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 lg:grid-cols-9 gap-2 mb-8">
             {topics.map((t) => {
               const isSelected = selectedTopicId === t.id;
               return (
                 <button
                   key={t.id}
                   onClick={() => setSelectedTopicId(t.id)}
-                  className={`p-3 rounded-xl text-left transition-all border flex flex-col justify-between cursor-pointer ${
+                  className={`p-2.5 sm:p-3 rounded-xl text-left transition-all border flex flex-col justify-between cursor-pointer ${
                     isSelected
                       ? 'bg-stone-900 border-amber-500/90 shadow-lg ring-1 ring-amber-400/40'
                       : 'bg-stone-950/60 border-stone-800 hover:border-stone-700'
                   }`}
                 >
                   <span className="text-[10px] font-mono text-stone-400 uppercase font-bold">TOPIC {t.topicNumber}</span>
-                  <h4 className="text-xs font-bold font-serif-jp text-stone-100 truncate mt-1">
+                  <h4 className="text-[11px] sm:text-xs font-bold font-serif-jp text-stone-100 truncate mt-1">
                     {t.topicTitle.split('（')[0]}
                   </h4>
                 </button>
@@ -416,7 +499,7 @@ export const TheoryComparisonMatrix: React.FC = () => {
               </p>
             </div>
             <span className="text-xs font-mono text-stone-400">
-              TOPIC {currentTopic.topicNumber} / 07
+              TOPIC {currentTopic.topicNumber} / 09
             </span>
           </div>
 
@@ -551,7 +634,7 @@ export const TheoryComparisonMatrix: React.FC = () => {
         </div>
       )}
 
-      {/* MODE 2: SUMMARY TABLE ACROSS ALL 7 TOPICS */}
+      {/* MODE 2: SUMMARY TABLE ACROSS ALL 9 TOPICS */}
       {activeTab === 'summary_table' && (
         <div className="overflow-x-auto mb-12">
           <table className="w-full text-left border-collapse text-xs sm:text-sm">

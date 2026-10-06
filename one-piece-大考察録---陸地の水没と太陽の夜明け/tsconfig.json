@@ -18,10 +18,17 @@
     "jsx": "react-jsx",
     "paths": {
       "@/*": [
+        "./src/*"
+      ],
+      "*": [
         "./*"
       ]
     },
+    "noImplicitAny": false,
     "allowImportingTsExtensions": true,
     "noEmit": true
-  }
+  },
+  "include": [
+    "src/**/*"
+  ]
 }
