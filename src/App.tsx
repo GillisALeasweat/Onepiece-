@@ -14,6 +14,7 @@ import { LunarCivilizationTechMatrix } from './components/LunarCivilizationTechM
 import { BloodlineLokiViewer } from './components/BloodlineLokiViewer';
 import { FigarlandHierarchy } from './components/FigarlandHierarchy';
 import { TwoDComparator } from './components/TwoDComparator';
+import { BlackbeardBiologicalWeaponMatrix } from './components/BlackbeardBiologicalWeaponMatrix';
 import { PirateKingPropagandaMatrix } from './components/PirateKingPropagandaMatrix';
 import { RedPoneglyphNavigationMatrix } from './components/RedPoneglyphNavigationMatrix';
 import { FourGodsOriginOfDevilFruits } from './components/FourGodsOriginOfDevilFruits';
@@ -26,6 +27,7 @@ import { BathPlugVisualForensics } from './components/BathPlugVisualForensics';
 import { GigantIronyAndSeraphimForensics } from './components/GigantIronyAndSeraphimForensics';
 import { FireAndCrimsonMasterPlot } from './components/FireAndCrimsonMasterPlot';
 import { TheoryComparisonMatrix } from './components/TheoryComparisonMatrix';
+import { DualLiberationAndStrawHatDreams } from './components/DualLiberationAndStrawHatDreams';
 import { GrandBanquetFinale } from './components/GrandBanquetFinale';
 import { ChapterReader } from './components/ChapterReader';
 import { Footer } from './components/Footer';
@@ -159,6 +161,7 @@ export default function App() {
               <div className="animate-fadeIn">
                 <FourGodsOriginOfDevilFruits />
                 <TwoDComparator />
+                <BlackbeardBiologicalWeaponMatrix />
                 <PirateKingPropagandaMatrix />
                 <RedPoneglyphNavigationMatrix />
                 <ImuEngineAndNikaCounter />
@@ -171,6 +174,7 @@ export default function App() {
               <div className="animate-fadeIn">
                 <FireAndCrimsonMasterPlot />
                 <TheoryComparisonMatrix />
+                <DualLiberationAndStrawHatDreams />
                 <GrandBanquetFinale />
                 <ChapterReader
                   bookmarkedIds={bookmarkedIds}
@@ -247,6 +251,7 @@ export default function App() {
             {/* Chapter 05 & 07: 4 Gods, Two D's, Imu Engine */}
             <FourGodsOriginOfDevilFruits />
             <TwoDComparator />
+            <BlackbeardBiologicalWeaponMatrix />
             <PirateKingPropagandaMatrix />
             <RedPoneglyphNavigationMatrix />
             <ImuEngineAndNikaCounter />
@@ -255,6 +260,7 @@ export default function App() {
             {/* Masterplot & Finale */}
             <FireAndCrimsonMasterPlot />
             <TheoryComparisonMatrix />
+            <DualLiberationAndStrawHatDreams />
             <GrandBanquetFinale />
             <ChapterReader
               bookmarkedIds={bookmarkedIds}
